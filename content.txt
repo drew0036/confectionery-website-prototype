@@ -1,0 +1,37 @@
+Coco's Chocolatiers
+
+Main Nav:
+About
+Shop
+Blog
+Recipes
+Visit
+
+Banner 1:
+40% Off Select Products (Shop Now)
+
+3x Columns: Products
+
+Custom Gift Boxes
+Speciality Desserts
+Holiday Collection
+
+<Image Gallery>
+
+3x Columns: Blog Posts
+
+Chocolate of the Month
+Around the World In Chocolate: Peru
+How To Fondue
+
+Banner 2:
+Personalized Gifts (Shop Now)
+
+Footer:
+
+Contact: 613-555-COCO, info@coco.ca
+Addresses:
+Coco's Chocolatiers SSM
+356 Queen St E, Sault Ste. Marie, ON
+Coco's Chocolatiers Ottawa
+1224 Wellington St W Unit A1, Ottawa, ON
