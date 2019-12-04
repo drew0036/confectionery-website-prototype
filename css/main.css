@@ -119,3 +119,64 @@ header nav a:hover {
 .banner1-text:hover {
   background-color: rgba(236, 127, 57, .80);
 }
+
+.products {
+  display: flex;
+  padding: 2rem auto;
+}
+
+.products ol {
+  list-style-type: none;
+  list-style: none;
+  margin: 2rem auto;
+  padding: 0;
+  display: block;
+  text-align: center;
+}
+
+.products li {
+  padding: 1rem 0;
+  position: relative;
+}
+
+.img-products {
+  width: 200px;
+  text-align: center;
+}
+
+.product-a {
+  font-family: Calistoga, cursive;
+  font-size: 1.125rem;
+  padding: .5rem auto;
+  text-align: center;
+  text-decoration: none;
+  color: #472d20;
+  background-color: #fff;
+  padding: .5rem 1rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.product-a:hover {
+  color: #ec7f39;
+}
+/* .products img {
+  position: relative;
+  width: 100%;
+}
+
+.products a {
+  position: absolute;
+  text-align: center;
+}
+
+.products li {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+} */
