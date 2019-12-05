@@ -140,7 +140,7 @@ header nav a:hover {
 }
 
 .img-products {
-  width: 200px;
+  width: 250px;
   text-align: center;
 }
 
@@ -162,6 +162,15 @@ header nav a:hover {
 
 .product-a:hover {
   color: #ec7f39;
+}
+
+.img-gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery:nth-child(2), .gallery:nth-child(3), .gallery:nth-child(4) {
+  display: none;
 }
 /* .products img {
   position: relative;
