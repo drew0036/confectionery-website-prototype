@@ -173,6 +173,7 @@ header nav a:hover {
 .img-gallery {
   display: flex;
   flex-wrap: wrap;
+  max-height: 500px;
 }
 
 .gallery:nth-child(2), .gallery:nth-child(3), .gallery:nth-child(4) {
