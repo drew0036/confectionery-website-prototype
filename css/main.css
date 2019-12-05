@@ -105,7 +105,8 @@ header nav a:hover {
   border-color: #fff7d0;
   border-style: double;
   padding: 1.125rem;
-  background-color: rgba(71, 45, 32, .80);
+  background-color: rgba(71, 45, 32, 0.8);
+  text-decoration: none;
 }
 
 .banner1-text h2 {
@@ -117,13 +118,8 @@ header nav a:hover {
   padding: 0;
 }
 
-.banner1-text {
-  text-decoration: none;
-  color: #fff7d0;
-}
-
 .banner1-text:hover {
-  background-color: rgba(236, 127, 57, .80);
+  background-color: rgba(236, 127, 57, 0.8);
 }
 
 .products {
@@ -133,7 +129,6 @@ header nav a:hover {
 
 .products ol {
   list-style-type: none;
-  list-style: none;
   margin: 2rem auto;
   padding: 0;
   display: block;
@@ -157,7 +152,7 @@ header nav a:hover {
   text-align: center;
   text-decoration: none;
   color: #472d20;
-  background-color: rgba(255, 247, 208, .80);
+  background-color: rgba(255, 247, 208, 0.8);
   padding: 1rem;
   position: absolute;
   left: 50%;
@@ -167,7 +162,7 @@ header nav a:hover {
 }
 
 .product-a:hover {
-  background-color: rgba(236, 127, 57, .80);
+  background-color: rgba(236, 127, 57, 0.8);
 }
 
 .img-gallery {
@@ -187,7 +182,6 @@ header nav a:hover {
 
 .blogposts ol {
   list-style-type: none;
-  list-style: none;
   margin: 0;
   padding: 1rem;
 }
@@ -289,7 +283,6 @@ footer nav {
 
 .contact ul {
   list-style-type: none;
-  list-style: none;
   text-align: left;
   padding: 0;
 }
@@ -326,7 +319,6 @@ footer dd {
 
 .footer-social {
   list-style-type: none;
-  list-style: none;
   padding: 0;
   margin: .5rem 0;
 }
@@ -350,4 +342,54 @@ footer dd {
 .copyright-div {
   width: 100%;
   margin: 0 auto;
+}
+
+@media only screen and (min-width: 25em) {
+
+  html {
+    font-size: 100%;
+    line-height: 1.3;
+  }
+
+  h1,
+  p {
+    margin: 0 0 1.3rem;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  h1,
+  p {
+    margin: 0 0 1.4rem;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  h1,
+  p {
+    margin: 0 0 1.5rem;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
 }
