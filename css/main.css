@@ -103,6 +103,7 @@ header nav a:hover {
   text-align: right;
   border-radius: 50px 0;
   border-color: #fff7d0;
+  color: #fff7d0;
   border-style: double;
   padding: 1.125rem;
   background-color: rgba(71, 45, 32, 0.8);
@@ -352,8 +353,33 @@ footer dd {
   }
 
   h1,
+  h2,
   p {
     margin: 0 0 1.3rem;
+  }
+
+  header h1 {
+    font-size: 2.3rem;
+  }
+
+  header nav ol {
+    font-size: 1.3rem;
+  }
+
+  .banner1-text h2 {
+    font-size: 1.3rem;
+  }
+
+  .product-a {
+    font-size: 1.3rem;
+  }
+
+  .blogposts a {
+    font-size: 1.3rem;
+  }
+
+  .banner2-text h2 {
+    font-size: 1.3rem;
   }
 
 }
@@ -366,8 +392,33 @@ footer dd {
   }
 
   h1,
+  h2,
   p {
     margin: 0 0 1.4rem;
+  }
+
+  header h1 {
+    font-size: 2.4rem;
+  }
+
+  header nav ol {
+    font-size: 1.4rem;
+  }
+
+  .banner1-text h2 {
+    font-size: 1.4rem;
+  }
+
+  .product-a {
+    font-size: 1.4rem;
+  }
+
+  .blogposts a {
+    font-size: 1.4rem;
+  }
+
+  .banner2-text h2 {
+    font-size: 1.4rem;
   }
 
 }
