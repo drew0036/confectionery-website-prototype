@@ -128,7 +128,7 @@ header nav a:hover {
 
 .products {
   display: flex;
-  padding: 2rem auto;
+  margin: 0 auto;
 }
 
 .products ol {
@@ -153,7 +153,7 @@ header nav a:hover {
 .product-a {
   font-family: Calistoga, cursive;
   font-size: 1.125rem;
-  padding: .5rem auto;
+  margin: .5rem auto;
   text-align: center;
   text-decoration: none;
   color: #472d20;
