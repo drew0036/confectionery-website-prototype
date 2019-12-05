@@ -53,6 +53,11 @@ header h1 {
   margin: 0 0 .5rem;
 }
 
+.home-btn {
+  text-decoration: none;
+  color: #fff7d0;
+}
+
 header nav {
   display: block;
 }
@@ -245,4 +250,102 @@ header nav a:hover {
   padding: 0;
   margin: 0;
   color: #fff7d0;
+}
+
+footer {
+  background-color: #472d20;
+  color: #fff7d0;
+  padding: 2rem;
+}
+
+footer h2 {
+  font-family: Calistoga, cursive;
+}
+
+.footer-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer nav {
+  display: none;
+}
+
+.ft-logo-div {
+  display: inline-block;
+  width: 50%;
+}
+
+.contact {
+  display: inline-block;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.contact li {
+  width: 100%;
+}
+
+.contact ul {
+  list-style-type: none;
+  list-style: none;
+  text-align: left;
+  padding: 0;
+}
+
+.locations {
+  text-align: center;
+  margin: .5rem 0;
+}
+
+.locations h2 {
+  margin: .5rem 0;
+}
+
+footer dl {
+  margin: 0 0 1.5rem;
+}
+
+footer dt {
+  display: inline-block;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+footer dd {
+  display: inline-block;
+  margin: 0;
+  width: 100%;
+}
+
+.footer-social-div {
+  display: block;
+  margin: 0 auto;
+}
+
+.footer-social {
+  list-style-type: none;
+  list-style: none;
+  padding: 0;
+  margin: .5rem 0;
+}
+
+.footer-social li {
+  display: inline;
+  padding: .5rem;
+}
+
+.footer-social img {
+  width: 50px;
+}
+
+.copyright {
+  display: block;
+  text-align: center;
+  width: 100%;
+  padding: .5rem 0;
+}
+
+.copyright-div {
+  margin: 0 auto;
 }
