@@ -106,7 +106,7 @@ header nav a:hover {
   color: #fff7d0;
   border-style: double;
   padding: 1.125rem;
-  background-color: rgba(71, 45, 32, 0.8);
+  background-color: rgba(71, 45, 32, .8);
   text-decoration: none;
 }
 
@@ -120,7 +120,7 @@ header nav a:hover {
 }
 
 .banner1-text:hover {
-  background-color: rgba(236, 127, 57, 0.8);
+  background-color: rgba(236, 127, 57, .8);
 }
 
 .products {
@@ -153,7 +153,7 @@ header nav a:hover {
   text-align: center;
   text-decoration: none;
   color: #472d20;
-  background-color: rgba(255, 247, 208, 0.8);
+  background-color: rgba(255, 247, 208, .8);
   padding: 1rem 0;
   position: absolute;
   left: 50%;
@@ -163,7 +163,7 @@ header nav a:hover {
 }
 
 .product-a:hover {
-  background-color: rgba(236, 127, 57, 0.8);
+  background-color: rgba(236, 127, 57, .8);
 }
 
 .img-gallery {
@@ -349,8 +349,9 @@ footer nav {
     margin: 0 0 1.3rem;
   }
 
-  .product-a {
+  .product a {
     width: 250px;
+    font-size: 1.3rem;
   }
 
   header h1 {
@@ -362,10 +363,6 @@ footer nav {
   }
 
   .banner1-text h2 {
-    font-size: 1.3rem;
-  }
-
-  .product-a {
     font-size: 1.3rem;
   }
 
@@ -402,6 +399,9 @@ footer nav {
 
   header h1 {
     font-size: 2.4rem;
+    display: flex;
+    padding: 0 .25rem 0 1rem;
+    margin: 0;
   }
 
   header nav ol {
@@ -432,18 +432,8 @@ footer nav {
     display: none;
   }
 
-  .header-social {
-    display: flex;
-  }
-
   header {
     position: relative;
-  }
-
-  header h1 {
-    display: flex;
-    padding: 0 .25rem 0 1rem;
-    margin: 0;
   }
 
   header nav {
@@ -459,11 +449,8 @@ footer nav {
     padding: 0 .25rem 0 1rem;
   }
 
-  header-social-div {
-    margin: 0 auto;
-  }
-
   .header-social {
+    display: flex;
     list-style-type: none;
     padding: 0;
     margin: .5rem 0;
@@ -593,7 +580,7 @@ footer nav {
     width: 250px;
   }
 
-    .gallery:nth-child(1), .gallery:nth-child(2), .gallery:nth-child(3), .gallery:nth-child(4) {
+  .gallery:nth-child(1), .gallery:nth-child(2), .gallery:nth-child(3), .gallery:nth-child(4) {
     width: 50%;
     display: block;
   }
@@ -669,11 +656,11 @@ footer nav {
   }
 
   header {
-    padding: 2rem 2rem 1rem 2rem;
+    padding: 2rem 2rem 1rem;
   }
 
   .header-logo {
-    display: inline;
+    display: inline-block;
     width: 100px;
     vertical-align: baseline;
   }
@@ -713,7 +700,7 @@ footer nav {
   }
 
   .gallery:nth-child(1), .gallery:nth-child(2), .gallery:nth-child(3), .gallery:nth-child(4) {
-  width: 25%;
+    width: 25%;
   }
 
   .blogposts {
@@ -737,7 +724,7 @@ footer nav {
   }
 
   footer {
-    padding: 2rem 8rem 0 8rem;
+    padding: 2rem 8rem 0;
   }
 
   .footer-logo {
