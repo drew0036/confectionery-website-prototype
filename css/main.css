@@ -154,12 +154,12 @@ header nav a:hover {
   text-decoration: none;
   color: #472d20;
   background-color: rgba(255, 247, 208, 0.8);
-  padding: 1rem;
+  padding: 1rem 0;
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 100%;
+  width: 250px;
 }
 
 .product-a:hover {
@@ -179,9 +179,7 @@ header nav a:hover {
   display: none;
 }
 
-.blogposts ol {
-  list-style-type: none;
-  margin: 0;
+.blogposts {
   padding: 1rem;
 }
 
@@ -190,12 +188,12 @@ header nav a:hover {
   margin-bottom: .5rem;
 }
 
-.blogposts p {
-  margin-top: 0;
+.blogposts h4 {
+  margin: 0;
 }
 
-.blogposts li {
-  padding: .125rem 0;
+.blogposts p {
+  display: none;
 }
 
 .blogposts a {
@@ -265,6 +263,10 @@ footer nav {
   display: none;
 }
 
+.footer-logo {
+  padding: 1rem;
+}
+
 .ft-logo-div {
   display: inline-block;
   width: 50%;
@@ -288,7 +290,7 @@ footer nav {
 
 .locations {
   text-align: center;
-  margin: .5rem auto;
+  margin: 0 auto;
 }
 
 .locations ol {
@@ -347,6 +349,10 @@ footer nav {
     margin: 0 0 1.3rem;
   }
 
+  .product-a {
+    width: 250px;
+  }
+
   header h1 {
     font-size: 2.3rem;
   }
@@ -367,8 +373,16 @@ footer nav {
     font-size: 1.3rem;
   }
 
+  .blogposts {
+    padding: 2rem;
+  }
+
   .banner2-text h2 {
     font-size: 1.3rem;
+  }
+
+  .footer-logo {
+    padding-right: 2rem;
   }
 
 }
@@ -467,6 +481,10 @@ footer nav {
     width: 40px;
   }
 
+  .product-a {
+    width: 175px;
+  }
+
   .products ol {
     display: flex;
     flex-direction: row;
@@ -487,10 +505,6 @@ footer nav {
     width: 50%;
   }
 
-  .blogposts ol {
-    padding: 1rem 0 1rem 3rem;
-  }
-
   .footer-content {
     display: flex;
     flex-direction: row;
@@ -501,12 +515,12 @@ footer nav {
 
   .ft-logo-div {
     order: 2;
-    width: 33.3333%;
+    width: 20%;
   }
 
   .contact {
     order: 1;
-    width: 33.3333%;
+    width: 40%;
     text-align: center;
   }
 
@@ -516,7 +530,33 @@ footer nav {
 
   .locations {
     order: 3;
-    width: 33.3333%;
+    width: 40%;
+  }
+
+  .blogposts img {
+    display: inline-block;
+    width: 250px;
+  }
+
+  .bp-img-left {
+    padding-right: 1rem;
+  }
+
+  .bp-img-right {
+    padding-left: 1rem;
+  }
+
+  .bp-list {
+    display: inline-flex;
+    padding: 1.5rem 0;
+  }
+
+  .blogposts h4 {
+    margin: 0;
+  }
+
+  .footer-logo {
+    padding: 0;
   }
 
 }
@@ -549,26 +589,75 @@ footer nav {
     width: 250px;
   }
 
-  .gallery:nth-child(2), .gallery:nth-child(3), .gallery:nth-child(4) {
-    width: 33.3333%;
-  }
-
-  .gallery:nth-child(4) {
-    display: flex;
-  }
-
-  .blogposts img {
-    display: inline;
+  .product-a {
     width: 250px;
   }
 
-  .blogposts h3 {
-    display: inline-block;
-    margin-top: 0;
+    .gallery:nth-child(1), .gallery:nth-child(2), .gallery:nth-child(3), .gallery:nth-child(4) {
+    width: 50%;
+    display: block;
+  }
+
+  .blogposts img {
+    width: 350px;
   }
 
   .blogposts p {
     display: inline-block;
+    font-size: .75rem;
+    margin: 0;
+  }
+
+  .blogposts h3 {
+    margin: 0;
+  }
+
+  footer nav {
+    display: inline;
+  }
+
+  footer ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  footer nav a {
+    color: #fff7d0;
+    text-decoration: none;
+  }
+
+  .ft-logo-div {
+    width: 20%;
+    order: 3;
+  }
+
+  .contact {
+    width: 26.6667%;
+    order: 2;
+  }
+
+  .locations {
+    width: 26.6667%;
+    order: 4;
+  }
+
+  .footer-nav-div {
+    width: 26.6667%;
+    padding: 0 2rem;
+    order: 1;
+    text-align: center;
+  }
+
+  .footer-nav-div li {
+    margin: .5rem 0;
+    background-color: #ec7f39;
+    border-radius: 8px;
+    padding: 0 1rem;
+  }
+
+  .footer-logo {
+    padding: 1rem;
   }
 
 }
@@ -577,6 +666,105 @@ footer nav {
 
   html {
     font-size: 130%;
+  }
+
+  header {
+    padding: 2rem 2rem 1rem 2rem;
+  }
+
+  .header-logo {
+    display: inline;
+    width: 100px;
+    vertical-align: baseline;
+  }
+
+  header h1 {
+    display: inline;
+    font-size: 3rem;
+    padding: 0;
+  }
+
+  .header-social {
+    left: 85%;
+  }
+
+  header nav {
+    display: inline;
+  }
+
+  header nav ol {
+    display: inline;
+    padding-top: .5rem;
+    position: absolute;
+    left: 55%;
+    top: 50%;
+  }
+
+  .img-products {
+    width: 350px;
+  }
+
+  .products ol {
+    padding: 2rem;
+  }
+
+  .product-a {
+    width: 350px;
+  }
+
+  .gallery:nth-child(1), .gallery:nth-child(2), .gallery:nth-child(3), .gallery:nth-child(4) {
+  width: 25%;
+  }
+
+  .blogposts {
+    padding: 2rem 9rem;
+  }
+
+  .blogposts h4 {
+    padding-bottom: .5rem;
+  }
+
+  .bp-img-left {
+    padding-right: 2rem;
+  }
+
+  .bp-img-right {
+    padding-left: 2rem;
+  }
+
+  .blogposts img {
+    width: 450px;
+  }
+
+  footer {
+    padding: 2rem 8rem 0 8rem;
+  }
+
+  .footer-logo {
+    padding: 0;
+  }
+
+  .ft-logo-div {
+    order: 4;
+  }
+
+  .contact {
+    order: 2;
+    text-align: left;
+    padding-left: 3rem;
+  }
+
+  .contact li {
+    text-align: left;
+  }
+
+  .locations {
+    order: 3;
+    text-align: left;
+  }
+
+  .footer-nav-div {
+    order: 1;
   }
 
 }
