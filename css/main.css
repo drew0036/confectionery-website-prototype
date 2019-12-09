@@ -172,7 +172,7 @@ header nav a:hover {
 }
 
 .gallery {
-  max-height: 500px;
+  max-height: 100%;
 }
 
 .gallery:nth-child(2), .gallery:nth-child(3), .gallery:nth-child(4) {
